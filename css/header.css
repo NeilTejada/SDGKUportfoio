@@ -1,0 +1,15 @@
+header {
+  background-color: var(--surface-color);
+}
+
+/* Left Side */
+.logo {
+  background-color: blue;
+  width: 20%;
+}
+
+/* Right Side */
+nav {
+  background-color: red;
+  width: 80%;
+}
