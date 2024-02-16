@@ -1,0 +1,40 @@
+/* Tablet View */
+@media ((min-width: 641px) and (max-width:1007px)) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Phone */
+@media (max-width: 640px) {
+  html {
+    font-size: 10px;
+  }
+
+  .nav-btn {
+    display: inline-flex;
+  }
+
+  .nav-link {
+    flex-direction: column;
+  }
+
+  header {
+    height: max-content;
+    flex-direction: column;
+    padding: 2%;
+  }
+
+  /* Toggle function */
+  /* Is the checkbox unchecked? */
+  /* Oldest ~ Youngest */
+  #nav-check:not(:checked) ~ .nav-link {
+    height: 0px;
+    overflow: hidden;
+  }
+
+  #nav-check:checked ~ nav.nav-link {
+    height: auto;
+    overflow: auto;
+  }
+}
