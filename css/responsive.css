@@ -3,6 +3,10 @@
   html {
     font-size: 12px;
   }
+
+  .about-section {
+    flex-direction: column;
+  }
 }
 
 /* Phone */
@@ -36,5 +40,10 @@
   #nav-check:checked ~ nav.nav-link {
     height: auto;
     overflow: auto;
+  }
+
+  /*  About */
+  .about-section {
+    flex-direction: column;
   }
 }
