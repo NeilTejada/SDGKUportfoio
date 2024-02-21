@@ -29,8 +29,8 @@
 
 /* Project Section */
 .project-section {
-  width: 80%;
-  margin: 2rem 0px;
+  padding: 2rem;
+  background-color: var(--secondary-color-900);
 }
 
 .project-card img {
@@ -45,6 +45,14 @@
   padding: 0.5rem;
   border-radius: 1%;
   border: solid 1px var(--secondary-color-900);
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 2rem;
 }
 
 .project-card:hover {
